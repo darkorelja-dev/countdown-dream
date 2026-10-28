@@ -5,18 +5,16 @@
         android:label="Odbrojavanje"
         android:allowBackup="false">
 
-        <!-- Pomoćna aktivnost: otvara podešavanja screen savera -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@android:style/Theme.NoDisplay">
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- Sam screen saver -->
         <service
             android:name=".CountdownDream"
             android:exported="true"
